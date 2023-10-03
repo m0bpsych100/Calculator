@@ -1,0 +1,35 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+}
+
+#calculator {
+    font-size: 28px;
+    color: #333;
+}
+
+* {
+    outline: none;
+    border: none;
+    padding: 10px;
+    background-color: cadetblue;
+    overflow-y: hidden;
+}
+
+button {
+    border-radius: 12px;
+    padding: 20px;
+}
+
+button, input {
+    background-color: darkgrey;
+}
+
+input {
+    padding: 16px;
+}
